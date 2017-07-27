@@ -1,0 +1,14 @@
+void setup() {
+  pinMode (6, INPUT);
+  pinMode (8, INPUT);
+
+}
+
+void loop() {
+  byte wLeft = digitalRead(8);
+  byte wRight = digitalRead(6);
+  
+Serial.print(wLeft);
+Serial.print(wRight);
+
+}
